@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- This is my own private domicile and I will not be harassed…bitch! -->
+
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <style type="text/css">
+        #container{
+            font-family: 'Oswald', sans-serif;
+            max-width: 550px;
+            margin: 20px auto;
+            text-align: center;   
+        }
+        select, button {
+            border: 1 #C0C0C0;
+            border-radius: 3px;
+            padding: 5px;
+        }
+        button {
+            height: 35px;
+        }
+        #quotes {
+            width: 500px;
+            height: 200px;
+        }
+    </style>
+    <script type="text/javascript" src="script.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="icon" href="fav.ico" type="image/x-icon">
+    <title>Breaking Lorem</title>
+</head>
+
+
+<body>
+    
+    <div id="container">
+            <img src="heisenberg.jpg"/>
+
+
+            <br><br><br><br><br>
+            Paragraphs:
+            <select id="numpar">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <br><br>
+            <button type="button" onclick="createQuote()">Generate me Bitch</button> <br><br>
+            <textarea id="quotes" wrap="hard"></textarea>
+        
+    </div>
+    
+</body>
+</html>

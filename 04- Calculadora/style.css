@@ -1,0 +1,39 @@
+body, input {
+    background-color: #050505;
+    color: #FFFFFF;
+}
+*:focus {
+    outline: none;
+}
+input {
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    border: 0;
+    padding: 10px;
+    margin: 0 4px 16px 3px;
+    
+}
+#screen {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    width: 350px;
+    height: 150px;
+    text-align: right;
+}
+#container {
+    width: 340px;
+    margin: 0 auto;
+}
+.regbutton {
+    width: 75px;
+    height: 70px;
+}
+.b0 {
+    width: 161px;
+    height: 70px;
+}
+.bequal {
+    float: right;
+    width: 75px;
+    height: 242px;
+}

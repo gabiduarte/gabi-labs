@@ -1,0 +1,27 @@
+body, input {
+	font-family: "Arial";
+	background-color: #FF7171;
+}
+
+a {
+	text-decoration: none;
+}
+
+#button {
+	margin: 200px auto;
+	height: 100px;
+	width: 200px;
+	padding: 20px;
+	text-align: center;
+	background-color: #C7FB4F;
+	color: #000000;
+	font-size: 20px;
+
+	
+	/* the shade! the shade of it all! */
+	-webkit-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 0px 2px 2px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px -3px 1px rgba(0, 0, 0, 0.45), 3px 2px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,36 @@
+<!Doctype HTML>
+<meta charset="utf-8">
+        <html>
+            <head>
+                <title> Kescode - How long</title>
+               <script type="text/javascript" src="script.js"></script>
+                <link rel="stylesheet" href="style.css">
+                <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+                <script type="text/javascript">
+
+
+                </script>
+            </head>
+
+            <body>
+                <div id="title">Quantos dias até lá?</div>
+                <div class="dateform">
+                    <form>
+                        Data Inicial:<br/>
+                        <input type="number" id="D1" placeholder="dd">
+                        <input type="number" id="M1" placeholder="mm">
+                        <input type="number" id="A1" placeholder="aaaa">
+                        <br><br><br><br>
+                        Data Final:<br/>
+                        <input type="number" id="D2" placeholder="dd">
+                        <input type="number" id="M2" placeholder="mm">
+                        <input type="number" id="A2" placeholder="aaaa">
+
+                        <br><br><br><br>
+                        <button type="button" onclick="getDateDif()">Enviar</button>
+                    </form>
+
+                </div>
+                <div id="answer"> Faltam <span id="final"> 0 </span> dias até lá</div>
+            </body>
+        </html>

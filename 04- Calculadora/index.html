@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <div id="container">
+        <div id="screen"></div>
+                <input type="button" class="regbutton" id="clear" value="C" onclick="document.location.reload(true)">
+                <input type="button" class="regbutton" id="/" value="/" onclick="opScreen('/')">
+                <input type="button" class="regbutton" id="*" value="*" onclick="opScreen('*')">
+                <input type="button" class="regbutton" id="-" value="-" onclick="opScreen('-')">
+
+                <input type="button" class="regbutton" id="7" value="7" onclick="numScreen(7)">
+                <input type="button" class="regbutton" id="8" value="8" onclick="numScreen(8)">
+                <input type="button" class="regbutton" id="9" value="9" onclick="numScreen(9)">
+                <input type="button" class="regbutton" id="+" value="+" onclick="opScreen('+')">
+
+                <input type="button" class="regbutton" id="4" value="4" onclick="numScreen(4)">
+                <input type="button" class="regbutton" id="5" value="5" onclick="numScreen(5)">
+                <input type="button" class="regbutton" id="6" value="6" onclick="numScreen(6)">
+                <input type="button" class="bequal" id="=" value="=" onclick="enterButton()">
+
+                <input type="button" class="regbutton" id="1" value="1" onclick="numScreen(1)">
+                <input type="button" class="regbutton" id="2" value="2" onclick="numScreen(2)">
+                <input type="button" class="regbutton" id="3" value="3" onclick="numScreen(3)">
+
+                <input type="button"  id="0" class="b0" value="0" onclick="numScreen(0)">
+                <input type="button" class="regbutton"  id="." value="." onclick="floatScreen('.')">
+        </div>
+</body>
+</html>

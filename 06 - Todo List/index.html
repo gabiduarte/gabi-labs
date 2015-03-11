@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <title>todo list</title>
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <main class="container">
+    <h1 class="txt-center"><i class="fa fa-heart"></i> Todo List</h1>
+    <div class="row">
+      <div class="six columns offset-by-three">
+        <form class="txt-center">
+            <input class="u-full-width" type="text" placeholder="What do you need to do?" id="input">
+            <button type="button" class="button-primary" onclick="createTodo()">SUBMIT</button>
+            <button type="button" class="button-primary" onclick="clearTodos()">CLEAR ALL</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="eight columns offset-by-two">
+        <table class="u-full-width" id="todo-list">
+          <thead>
+            <tr>
+              <th>Your To Do</th>
+            </tr>
+          </thead>
+          <tbody id="td-input">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+  <footer class="txt-center u-full-width">
+      Made with <i class="fa fa-smile-o fa-spin"></i> by <a href="http://gabiduarte.github.io/">Gabi Duarte</a> - Open Console for Notes!
+  </footer>
+</body>
+</html>

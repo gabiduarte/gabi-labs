@@ -1,17 +1,13 @@
 $(document).ready(function () {
-	var hexColor;
-	function getHex() {
-			function color() {
-				return Math.floor(Math.random()*256).toString(16)
-			}
-		hexColor = "#"+color()+color()+color();
-		return hexColor;
-	}
-		$("#button").click(function () {
-			$('body').css('background-color', getHex());
-			$(this).text("Your color is  \n " + hexColor.toUpperCase());
-		
+	$("button").click(function () {
+		function hex() {
+			return Math.floor(Math.random() * 256).toString(16);
+		}
+		var color = '#' + hex() + hex() + hex();
+		$('body').css('background-color', color);
+		$('p').html('Your color is ' + color);
 	});
-	
-	
 });
+//Console Notes
+console.log('This was my "Hello World" project back when I started to learn Javascript (probably september 2014). \n' +
+'For this tiny study session, I used http://jquery.com/ and Jennifer Dewalt\'s idea for day 3 (http://jenniferdewalt.com/)');

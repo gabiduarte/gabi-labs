@@ -1,37 +1,32 @@
 body {
-    background-color: #fcb825;
-    color: #000000;
-    font-family: 'Arial'; 
-    font-size: 14px;
-    text-align: center;
+  background-color: #33C3F0;
+  font-family: 'Helvetica Neue', serif;
+  color: #fff;
+  text-align: center;    
 }
-
-#title {
-    font-family: 'Pacifico', cursive;
-    font-size: 36px;
+main {
+  margin: auto;
+  position: absolute;
+  top: 25%; left: 0; bottom: 0; right: 0;
 }
-
-.dateform {
-    margin-top: 100px;
-
+input, button {
+  background-color: transparent;
+  font-family: 'Arial';
+  color: #eee ;    
+  border: 0;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border: 1px solid #258EB4;
 }
-
-#answer {
-    margin-top: 50px;
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 25px;
+  width: 100%;
+  background-color: #258EB4;
 }
-
-input {
-    background-color: #FFF;
-    border: 0;
-    padding: 10px;
-    border-radius: 10px;
-    width: 70px;
-}
-
-button {
-    border: 0;
-    border-radius: 5px;
-    background-color: #FFF;
-    width: 100px;
-    height: 40px;
+a:visited, a:hover, a:link {
+  color: #0F3949;
 }

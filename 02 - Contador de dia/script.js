@@ -1,19 +1,11 @@
-function getDateDif() {
-    var D1 = document.getElementById("D1").value;
-    var M1 = document.getElementById("M1").value;
-    var A1 = document.getElementById("A1").value;
-    var D2 = document.getElementById("D2").value;
-    var M2 = document.getElementById("M2").value;
-    var A2 = document.getElementById("A2").value;
-
-    
-    M1 -= 1;
-    M2 -= 1;
-
-    var date1 = new Date(A1,M1,D1);
-    var date2 = new Date(A2,M2,D2);
-
-    document.getElementById("final").innerHTML = (date2.getTime() - date1.getTime()) / 86400000;
-
-
+function dateDiff() {
+    var firstDate = document.getElementById('first').value,
+    secondDate = document.getElementById('second').value,
+    result = (new Date(secondDate).getTime() - new Date(firstDate).getTime()) / 86400000,
+    days = (result === 1) ? 'day' : 'days';
+    if(firstDate.length < 9 || secondDate.length < 9) { return; }
+    document.getElementById('result').innerHTML = result + ' ' + days + ' remaining';
 }
+//Console Notes
+console.log('Hi! This was the second project that I did, when I started learning (now refactored). The main idea was to learn more about date methods.\n' +
+  'For this project, I used only Google/StackOverflow and Dash for documentation (and Font Awesome for some cool icons) :) \n' + 'While refactoring/coding, listened to: I Bring the Beat - Ru Paul');

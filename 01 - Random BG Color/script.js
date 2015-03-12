@@ -10,4 +10,4 @@ $(document).ready(function () {
 });
 //Console Notes
 console.log('This was my "Hello World" project back when I started to learn Javascript (probably september 2014). \n' +
-'For this tiny study session, I used http://jquery.com/ and Jennifer Dewalt\'s idea for day 3 (http://jenniferdewalt.com/)');
+'For this tiny study session, I used http://jquery.com/, Jennifer Dewalt\'s idea for day 3 (http://jenniferdewalt.com/) and Font Awesome for cool icons');

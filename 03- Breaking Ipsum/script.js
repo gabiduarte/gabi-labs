@@ -39,7 +39,7 @@ function createIpsum() {
       result += quotes[random] + '\n\n';
     }
   }
-  textarea.value = result + "<!-- They're Credits, Marie... Jesus! --> \n<a href=\"http://gabiduarte.github.io\">Made with :) by Gabi! && Design by <a href=\"http://behance.com\/xcoi\">Diego Santana</a>";
+  textarea.value = result + "(They're Credits, Marie... Jesus!) \nMade with :) by Gabi (http://gabiduarte.github.io) && Design by Diego Santana (http://behance.com/xcoi)";
 }
 //notes
 console.log('Whoa, thanks for stopping by! :D This was one the projects I made when I decided to learn how to code, and before revamping it, it took me forever to figure it out \n'+

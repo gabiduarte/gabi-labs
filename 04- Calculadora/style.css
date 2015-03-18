@@ -1,46 +1,60 @@
 body {
-    text-align: right;
-    background-color: #D9665B;
+  text-align: right;
+  background-color: #D9665B;
 }
 body, .btn {
-    font-family: 'Roboto', serif;
-    font-size: 35px;
-    outline: none;
+  font-family: 'Roboto', serif;
+  font-size: 35px;
+  outline: none;
 }
 main {
-    margin: auto;
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    width: 240px;
-    height: 375px;
-    box-shadow: 1px 3px 1px #1D1E23;
-    border-radius: 4px;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  width: 240px;
+  height: 375px;
+  box-shadow: 1px 3px 1px #1D1E23;
+  border-radius: 4px;
 }
 .screen {
-    background-color: #fff;
-    display: block;
-    width: 100%;
-    line-height: 50px;
-    height: 75px;
-    border-radius: 4px 4px 0 0;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 50px;
+  height: 75px;
+  border-radius: 4px 4px 0 0;
 }
 .btn {
-    width: 60px;
-    height: 60px;
-    float: left;
-    padding: 0;
-    border: 0;
-    background-color: #592525;
-    color: #D9B5A0;
-    transition: all 0.6s;
+  width: 60px;
+  height: 60px;
+  float: left;
+  padding: 0;
+  border: 0;
+  background-color: #592525;
+  color: #D9B5A0;
+  transition: all 0.6s;
 }
 .btn-zero {
-    width: 120px;
+  width: 120px;
 }
 .btn-equal {
-    height: 180px;
-    float: right;
+  height: 180px;
+  float: right;
 }
 .btn:hover {
-    background-color: #B74A42;
+  background-color: #B74A42;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 25px;
+  width: 100%;
+  color: #fff;
+  background-color: #592525;
+}
+a:link, a:hover, a:visited {
+  color: #fff;
 }

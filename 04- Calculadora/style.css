@@ -1,39 +1,46 @@
-body, input {
-    background-color: #050505;
-    color: #FFFFFF;
+body {
+    text-align: right;
+    background-color: #D9665B;
 }
-*:focus {
+body, .btn {
+    font-family: 'Roboto', serif;
+    font-size: 35px;
     outline: none;
 }
-input {
-    font-family: 'Roboto', sans-serif;
-    font-size: 35px;
+main {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 240px;
+    height: 375px;
+    box-shadow: 1px 3px 1px #1D1E23;
+    border-radius: 4px;
+}
+.screen {
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    line-height: 50px;
+    height: 75px;
+    border-radius: 4px 4px 0 0;
+}
+.btn {
+    width: 60px;
+    height: 60px;
+    float: left;
+    padding: 0;
     border: 0;
-    padding: 10px;
-    margin: 0 4px 16px 3px;
-    
+    background-color: #592525;
+    color: #D9B5A0;
+    transition: all 0.6s;
 }
-#screen {
-    font-family: 'Roboto', sans-serif;
-    font-size: 40px;
-    width: 350px;
-    height: 150px;
-    text-align: right;
+.btn-zero {
+    width: 120px;
 }
-#container {
-    width: 340px;
-    margin: 0 auto;
-}
-.regbutton {
-    width: 75px;
-    height: 70px;
-}
-.b0 {
-    width: 161px;
-    height: 70px;
-}
-.bequal {
+.btn-equal {
+    height: 180px;
     float: right;
-    width: 75px;
-    height: 242px;
+}
+.btn:hover {
+    background-color: #B74A42;
 }
